@@ -1,0 +1,27 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\ejic2\AppData\Local\Temp\JetBrains\ReSharperPlatformVs17\vAny_9b23dbcf\CoverageData\_SubastaService.Solution.-149538614\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e20b4582_002D6392_002D4313_002D8638_002D16ab4b77c732/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ObtenerPorId_DebeRetornarNotFoundSiNoExiste" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Controllers.SubastasControllerTests.ObtenerPorId_DebeRetornarNotFoundSiNoExiste&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Controllers.SubastasControllerTests.ObtenerPorId_DebeRetornarOkSiExiste&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Controllers.SubastasControllerTests.CrearSubasta_DeberiaRetornarCreatedConResultado&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Controllers.SubastasControllerTests.CrearSubasta_DeberiaRetornarCreatedConId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Controllers.SubastasControllerTests.CrearSubasta_CuandoModeloInvalido_DeberiaRetornarBadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Controllers.SubastasControllerTests.Delete_CuandoSubastaExiste_DeberiaRetornarNoContent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Controllers.SubastasControllerTests.Delete_CuandoSubastaNoExiste_DeberiaRetornarNotFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Handlers.CreateAuctionCommandHandlerTests.Handle_DeberiaCrearSubastaYPublicarEventos&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Handlers.EliminarSubastaCommandHandlerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Handlers.ConsultarSubastaPorIdQueryHandlerTests.Handle_CuandoSubastaExiste_DeberiaRetornarDtoCompleto&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Handlers.ConsultarSubastaPorIdQueryHandlerTests.Handle_CuandoSubastaNoExiste_DeberiaRetornarNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Consumers.SubastaCreadaConsumerTests.Consume_CuandoRecibeEvento_DeberiaInsertarDocumentoEnMongo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Repositorios.AuctionRepositoryTests.CancelarSubastaAsync_DeberiaActualizarEstadoYPublicarEvento&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Repositorios.AuctionRepositoryTests.CancelarSubastaAsync_CuandoSubastaNoExiste_DeberiaLanzarExcepcion&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Repositorios.AuctionRepositoryTests.CancelarSubastaAsync_CuandoUsuarioNoEsPropietario_DeberiaLanzarUnauthorized&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Repositorios.AuctionRepositoryTests.CrearAsync_DeberiaGuardarSubastaYRetornarId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Repositorios.AuctionRepositoryTests.ObtenerSubastaCompletaPorIdAsync_CuandoExiste_DeberiaRetornarEntidadSubasta&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.Repositorios.AuctionRepositoryTests.ObtenerSubastaCompletaPorIdAsync_CuandoNoExiste_DeberiaRetornarNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.EventPublishers.PublicadorSubastaEventosTests.PublicarAuctionStarted_DeberiaLlamarPublish&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.EventPublishers.PublicadorSubastaEventosTests.PublicarSubastaCreada_DeberiaLlamarPublish&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A5A40784-7286-4DAB-8F0B-8467F3ABA363::net8.0::SubastaService.Tests.EventPublishers.PublicadorSubastaEventosTests.PublicarSubastaEditada_DeberiaLlamarPublish&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,977 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|solutionrelative:subastaservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|solutionrelative:subastaservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|solutionrelative:subastaservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\infrastructure\\eventpublishers\\publicadorsubastaeventostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\infrastructure\\eventpublishers\\publicadorsubastaeventostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\events\\subastaeditadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\events\\subastaeditadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\eventpublishers\\publicadorsubastaeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\eventpublishers\\publicadorsubastaeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\subastaservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\subastaservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\infrastructure\\repositorios\\auctionrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\infrastructure\\repositorios\\auctionrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\repositorios\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\repositorios\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\infrastructure\\consumers\\subastacreadaconsumertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\infrastructure\\consumers\\subastacreadaconsumertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\consumers\\subastacreadaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\consumers\\subastacreadaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\mongodb\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\mongodb\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\mongodb\\isubastamongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\mongodb\\isubastamongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\application\\handlers\\consultarsubastaporidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\application\\handlers\\consultarsubastaporidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\queries\\consultarsubastaporidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\queries\\consultarsubastaporidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\servicios\\consultarsubastaporidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\servicios\\consultarsubastaporidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\application\\handlers\\eliminarsubastacommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\application\\handlers\\eliminarsubastacommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\servicios\\eliminarsubastacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\servicios\\eliminarsubastacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\commands\\eliminarsubastacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\commands\\eliminarsubastacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\application\\handlers\\createauctioncommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\application\\handlers\\createauctioncommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\servicios\\createauctioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\servicios\\createauctioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\commands\\createauctioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\commands\\createauctioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\api\\controllers\\subastascontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\api\\controllers\\subastascontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\commands\\editarsubastacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\commands\\editarsubastacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.api\\controllers\\subastascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|solutionrelative:subastaservice.api\\controllers\\subastascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\dto\\subastacompletadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\dto\\subastacompletadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A40784-7286-4DAB-8F0B-8467F3ABA363}|SubastaService.Tests\\SubastaService.Tests.csproj|solutionrelative:subastaservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\repositorios\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\repositorios\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\subastaservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\subastaservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\sagas\\subastastatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\sagas\\subastastatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\sagas\\subastastate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\sagas\\subastastate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\mongodb\\documents\\subastadocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\mongodb\\documents\\subastadocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\events\\auctioncanceled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\events\\auctioncanceled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\servicios\\editarsubastahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\servicios\\editarsubastahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\events\\subastacreadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\events\\subastacreadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\entidades\\subasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\entidades\\subasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\events\\auctionstarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\events\\auctionstarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\events\\auctionended.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\events\\auctionended.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.api\\subastaservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AC1E463B-CDF5-4ED6-9893-9C318E88053B}|SubastaService.Api\\SubastaService.Api.csproj|solutionrelative:subastaservice.api\\subastaservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\interfaces\\ipublicadorsubastaeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\interfaces\\ipublicadorsubastaeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\subastaservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\subastaservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\events\\paymentreceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\events\\paymentreceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\events\\bidplaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\events\\bidplaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\events\\subastafinalizadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\events\\subastafinalizadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\comun\\messageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\comun\\messageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\mongodb\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\mongodb\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\subastaservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\subastaservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\persistencia\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\persistencia\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\persistencia\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\persistencia\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\configuracion\\masstransitconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\configuracion\\masstransitconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\services\\keycloackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\services\\keycloackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250418002713_FixNombreTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SubastaService.Infrastructure\\Migrations\\20250418002713_FixNombreTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8AE0A-2723-4DD1-AA99-397B2432DD35}|SubastaService.Application\\SubastaService.Application.csproj|solutionrelative:subastaservice.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E684A782-A88D-4BB8-B02C-C5E7C56CDF41}|SubastaService.Domain\\SubastaService.Domain.csproj|solutionrelative:subastaservice.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\migrations\\20250417232703_initialnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\migrations\\20250417232703_initialnuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\migrations\\20250418003749_inicialsubasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\migrations\\20250418003749_inicialsubasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\migrations\\20250417224127_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\migrations\\20250417224127_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\subastaservice.solution\\subastaservice.infrastructure\\migrations\\20250417224756_initialcreateprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE9456BC-F53C-420A-A048-E364DE26B3A0}|SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj|solutionrelative:subastaservice.infrastructure\\migrations\\20250417224756_initialcreateprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SubastaService.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SubastaService.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-29T04:16:31.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PublicadorSubastaEventosTests.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Infrastructure\\EventPublishers\\PublicadorSubastaEventosTests.cs",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\Infrastructure\\EventPublishers\\PublicadorSubastaEventosTests.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Infrastructure\\EventPublishers\\PublicadorSubastaEventosTests.cs",
+              "RelativeToolTip": "SubastaService.Tests\\Infrastructure\\EventPublishers\\PublicadorSubastaEventosTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:45:58.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuctionRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Infrastructure\\Repositorios\\AuctionRepositoryTests.cs",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\Infrastructure\\Repositorios\\AuctionRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Infrastructure\\Repositorios\\AuctionRepositoryTests.cs",
+              "RelativeToolTip": "SubastaService.Tests\\Infrastructure\\Repositorios\\AuctionRepositoryTests.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAIwN0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:33:18.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubastaService.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\SubastaService.Tests.csproj",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\SubastaService.Tests.csproj",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\SubastaService.Tests.csproj",
+              "RelativeToolTip": "SubastaService.Tests\\SubastaService.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-25T16:17:17.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SubastaCreadaConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Consumers\\SubastaCreadaConsumer.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Consumers\\SubastaCreadaConsumer.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Consumers\\SubastaCreadaConsumer.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Consumers\\SubastaCreadaConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:25:06.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EliminarSubastaCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Application\\Handlers\\EliminarSubastaCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\Application\\Handlers\\EliminarSubastaCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Application\\Handlers\\EliminarSubastaCommandHandlerTests.cs",
+              "RelativeToolTip": "SubastaService.Tests\\Application\\Handlers\\EliminarSubastaCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:00:52.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SubastaService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\Program.cs",
+              "RelativeToolTip": "SubastaService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:26:13.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SubastaService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\appsettings.json",
+              "RelativeToolTip": "SubastaService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T22:25:21.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublicadorSubastaEventos.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\EventPublishers\\PublicadorSubastaEventos.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\EventPublishers\\PublicadorSubastaEventos.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\EventPublishers\\PublicadorSubastaEventos.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\EventPublishers\\PublicadorSubastaEventos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:13:13.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubastaEditadaEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\SubastaEditadaEvent.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Events\\SubastaEditadaEvent.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\SubastaEditadaEvent.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Events\\SubastaEditadaEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T04:45:51.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\MongoDB\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\MongoDB\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\MongoDB\\MongoDbContext.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\MongoDB\\MongoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:13:19.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuctionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Repositorios\\AuctionRepository.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Repositorios\\AuctionRepository.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Repositorios\\AuctionRepository.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Repositorios\\AuctionRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T23:42:03.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsultarSubastaPorIdQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Application\\Handlers\\ConsultarSubastaPorIdQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\Application\\Handlers\\ConsultarSubastaPorIdQueryHandlerTests.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Application\\Handlers\\ConsultarSubastaPorIdQueryHandlerTests.cs",
+              "RelativeToolTip": "SubastaService.Tests\\Application\\Handlers\\ConsultarSubastaPorIdQueryHandlerTests.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDkAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:04:35.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubastaCreadaConsumerTests.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Infrastructure\\Consumers\\SubastaCreadaConsumerTests.cs",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\Infrastructure\\Consumers\\SubastaCreadaConsumerTests.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Infrastructure\\Consumers\\SubastaCreadaConsumerTests.cs",
+              "RelativeToolTip": "SubastaService.Tests\\Infrastructure\\Consumers\\SubastaCreadaConsumerTests.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:15:44.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EliminarSubastaCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Commands\\EliminarSubastaCommand.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Commands\\EliminarSubastaCommand.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Commands\\EliminarSubastaCommand.cs",
+              "RelativeToolTip": "SubastaService.Application\\Commands\\EliminarSubastaCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:46:09.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsultarSubastaPorIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Queries\\ConsultarSubastaPorIdQuery.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Queries\\ConsultarSubastaPorIdQuery.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Queries\\ConsultarSubastaPorIdQuery.cs",
+              "RelativeToolTip": "SubastaService.Application\\Queries\\ConsultarSubastaPorIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:56:10.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISubastaMongoContext.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\MongoDB\\ISubastaMongoContext.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\MongoDB\\ISubastaMongoContext.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\MongoDB\\ISubastaMongoContext.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\MongoDB\\ISubastaMongoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:18:42.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateAuctionCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Application\\Handlers\\CreateAuctionCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\Application\\Handlers\\CreateAuctionCommandHandlerTests.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Application\\Handlers\\CreateAuctionCommandHandlerTests.cs",
+              "RelativeToolTip": "SubastaService.Tests\\Application\\Handlers\\CreateAuctionCommandHandlerTests.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:58:32.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateAuctionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Commands\\CreateAuctionCommand.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Commands\\CreateAuctionCommand.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Commands\\CreateAuctionCommand.cs",
+              "RelativeToolTip": "SubastaService.Application\\Commands\\CreateAuctionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T23:34:38.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConsultarSubastaPorIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Servicios\\ConsultarSubastaPorIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Servicios\\ConsultarSubastaPorIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Servicios\\ConsultarSubastaPorIdQueryHandler.cs",
+              "RelativeToolTip": "SubastaService.Application\\Servicios\\ConsultarSubastaPorIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:58:49.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubastasControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Api\\Controllers\\SubastasControllerTests.cs",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\Api\\Controllers\\SubastasControllerTests.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\Api\\Controllers\\SubastasControllerTests.cs",
+              "RelativeToolTip": "SubastaService.Tests\\Api\\Controllers\\SubastasControllerTests.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAUwLQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:13:30.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditarSubastaCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Commands\\EditarSubastaCommand.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Commands\\EditarSubastaCommand.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Commands\\EditarSubastaCommand.cs",
+              "RelativeToolTip": "SubastaService.Application\\Commands\\EditarSubastaCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T04:41:19.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EliminarSubastaCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Servicios\\EliminarSubastaCommandHandler.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Servicios\\EliminarSubastaCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Servicios\\EliminarSubastaCommandHandler.cs",
+              "RelativeToolTip": "SubastaService.Application\\Servicios\\EliminarSubastaCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:46:49.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubastasController.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\Controllers\\SubastasController.cs",
+              "RelativeDocumentMoniker": "SubastaService.Api\\Controllers\\SubastasController.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\Controllers\\SubastasController.cs",
+              "RelativeToolTip": "SubastaService.Api\\Controllers\\SubastasController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwDwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T23:57:19.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateAuctionCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Servicios\\CreateAuctionCommandHandler.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Servicios\\CreateAuctionCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Servicios\\CreateAuctionCommandHandler.cs",
+              "RelativeToolTip": "SubastaService.Application\\Servicios\\CreateAuctionCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA2wEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T23:36:48.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SubastaCompletaDto.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\DTO\\SubastaCompletaDto.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\DTO\\SubastaCompletaDto.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\DTO\\SubastaCompletaDto.cs",
+              "RelativeToolTip": "SubastaService.Application\\DTO\\SubastaCompletaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:53:06.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SubastaService.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "SubastaService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:09:45.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAuctionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Repositorios\\IAuctionRepository.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Repositorios\\IAuctionRepository.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Repositorios\\IAuctionRepository.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Repositorios\\IAuctionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T23:38:58.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SubastaDocument.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\MongoDB\\Documents\\SubastaDocument.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\MongoDB\\Documents\\SubastaDocument.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\MongoDB\\Documents\\SubastaDocument.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\MongoDB\\Documents\\SubastaDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:17:27.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SubastaService.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\SubastaService.Application.csproj",
+              "RelativeDocumentMoniker": "SubastaService.Application\\SubastaService.Application.csproj",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\SubastaService.Application.csproj",
+              "RelativeToolTip": "SubastaService.Application\\SubastaService.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T22:23:21.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SubastaStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Sagas\\SubastaStateMachine.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Sagas\\SubastaStateMachine.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Sagas\\SubastaStateMachine.cs",
+              "RelativeToolTip": "SubastaService.Application\\Sagas\\SubastaStateMachine.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:22:07.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuctionCanceled.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\AuctionCanceled.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Events\\AuctionCanceled.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\AuctionCanceled.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Events\\AuctionCanceled.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:53:48.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SubastaState.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Sagas\\SubastaState.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Sagas\\SubastaState.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Sagas\\SubastaState.cs",
+              "RelativeToolTip": "SubastaService.Application\\Sagas\\SubastaState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:21:40.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditarSubastaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Servicios\\EditarSubastaHandler.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Servicios\\EditarSubastaHandler.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Servicios\\EditarSubastaHandler.cs",
+              "RelativeToolTip": "SubastaService.Application\\Servicios\\EditarSubastaHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T04:42:16.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Subasta.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Entidades\\Subasta.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Entidades\\Subasta.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Entidades\\Subasta.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Entidades\\Subasta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:24:33.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SubastaCreadaEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\SubastaCreadaEvent.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Events\\SubastaCreadaEvent.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\SubastaCreadaEvent.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Events\\SubastaCreadaEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:09:57.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuctionEnded.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\AuctionEnded.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Events\\AuctionEnded.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\AuctionEnded.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Events\\AuctionEnded.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:51:53.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuctionStarted.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\AuctionStarted.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Events\\AuctionStarted.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\AuctionStarted.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Events\\AuctionStarted.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:50:16.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SubastaService.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\SubastaService.Api.csproj",
+              "RelativeDocumentMoniker": "SubastaService.Api\\SubastaService.Api.csproj",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Api\\SubastaService.Api.csproj",
+              "RelativeToolTip": "SubastaService.Api\\SubastaService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T22:22:38.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IPublicadorSubastaEventos.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Interfaces\\IPublicadorSubastaEventos.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Interfaces\\IPublicadorSubastaEventos.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Interfaces\\IPublicadorSubastaEventos.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Interfaces\\IPublicadorSubastaEventos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:10:47.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SubastaService.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj",
+              "RelativeToolTip": "SubastaService.Infrastructure\\SubastaService.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T22:23:30.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BidPlaced.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\BidPlaced.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Events\\BidPlaced.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\BidPlaced.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Events\\BidPlaced.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:51:13.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PaymentReceived.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\PaymentReceived.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Events\\PaymentReceived.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\PaymentReceived.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Events\\PaymentReceived.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:52:55.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SubastaFinalizadaEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\SubastaFinalizadaEvent.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Events\\SubastaFinalizadaEvent.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Events\\SubastaFinalizadaEvent.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Events\\SubastaFinalizadaEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:24:16.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MessageResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Comun\\MessageResponse.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Comun\\MessageResponse.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Comun\\MessageResponse.cs",
+              "RelativeToolTip": "SubastaService.Application\\Comun\\MessageResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T04:51:08.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SubastaService.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\SubastaService.Domain.csproj",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\SubastaService.Domain.csproj",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\SubastaService.Domain.csproj",
+              "RelativeToolTip": "SubastaService.Domain\\SubastaService.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T17:09:22.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MongoSettings.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\MongoDB\\MongoSettings.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\MongoDB\\MongoSettings.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\MongoDB\\MongoSettings.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\MongoDB\\MongoSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:14:40.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MassTransitConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Configuracion\\MassTransitConfig.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Configuracion\\MassTransitConfig.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Configuracion\\MassTransitConfig.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Configuracion\\MassTransitConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:00:56.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Persistencia\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Persistencia\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Persistencia\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Persistencia\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:38:28.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250417232703_InitialNuevo.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250417232703_InitialNuevo.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Migrations\\20250417232703_InitialNuevo.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250417232703_InitialNuevo.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Migrations\\20250417232703_InitialNuevo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T23:27:03.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "KeycloackService.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Services\\KeycloackService.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Services\\KeycloackService.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Services\\KeycloackService.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Services\\KeycloackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:34:16.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20250418003749_InicialSubasta.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250418003749_InicialSubasta.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Migrations\\20250418003749_InicialSubasta.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250418003749_InicialSubasta.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Migrations\\20250418003749_InicialSubasta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T00:37:50.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250418002713_FixNombreTable.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250418002713_FixNombreTable.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Migrations\\20250418002713_FixNombreTable.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250418002713_FixNombreTable.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Migrations\\20250418002713_FixNombreTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T00:27:13.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Persistencia\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Persistencia\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Persistencia\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Persistencia\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:21:14.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250417224127_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250417224127_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Migrations\\20250417224127_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250417224127_InitialCreate.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Migrations\\20250417224127_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:41:29.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250417224756_InitialCreatePrueba.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250417224756_InitialCreatePrueba.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Migrations\\20250417224756_InitialCreatePrueba.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Migrations\\20250417224756_InitialCreatePrueba.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Migrations\\20250417224756_InitialCreatePrueba.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:47:57.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "SubastaService.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "SubastaService.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:17:10.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "SubastaService.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Application\\Class1.cs",
+              "RelativeToolTip": "SubastaService.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:16:40.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "SubastaService.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\SubastaService.Solution\\SubastaService.Domain\\Class1.cs",
+              "RelativeToolTip": "SubastaService.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:15:58.347Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

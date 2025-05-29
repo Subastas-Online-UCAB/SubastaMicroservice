@@ -1,0 +1,15 @@
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\bin\Debug\net8.0\SubastaService.Application.deps.json
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\bin\Debug\net8.0\SubastaService.Application.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\bin\Debug\net8.0\SubastaService.Application.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\bin\Debug\net8.0\SubastaService.Domain.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\bin\Debug\net8.0\SubastaService.Domain.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\SubastaService.Application.csproj.AssemblyReference.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\SubastaService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\SubastaService.Application.AssemblyInfoInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\SubastaService.Application.AssemblyInfo.cs
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\SubastaService.Application.csproj.CoreCompileInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\SubastaS.40A412A8.Up2Date
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\SubastaService.Application.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\refint\SubastaService.Application.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\SubastaService.Application.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Application\obj\Debug\net8.0\ref\SubastaService.Application.dll
