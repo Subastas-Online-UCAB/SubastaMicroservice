@@ -54,5 +54,17 @@
             <response code="200">Subasta encontrada.</response>
             <response code="404">Subasta no encontrada.</response>
         </member>
+        <member name="M:SubastaService.API.Controllers.SubastasController.GetAll">
+            <summary>
+            Obtiene la lista de todas las subastas.
+            </summary>
+            <remarks>
+            Retorna todas las subastas registradas desde la base de datos de lectura (MongoDB).
+            No requiere parámetros de entrada.
+            </remarks>
+            <returns>Lista de objetos <see cref="T:SubastaService.Domain.Entidades.Subasta"/>.</returns>
+            <response code="200">Lista de subastas obtenida exitosamente.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
     </members>
 </doc>

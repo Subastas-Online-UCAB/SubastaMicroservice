@@ -67,6 +67,21 @@
             }
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Subastas"
+        ],
+        "summary": "Obtiene la lista de todas las subastas.",
+        "description": "Retorna todas las subastas registradas desde la base de datos de lectura (MongoDB).\r\nNo requiere parámetros de entrada.",
+        "responses": {
+          "200": {
+            "description": "Lista de subastas obtenida exitosamente."
+          },
+          "500": {
+            "description": "Error interno del servidor."
+          }
+        }
       }
     },
     "/api/Subastas/{id}": {
@@ -356,6 +371,35 @@
           "fechaCierre": {
             "type": "string",
             "format": "date-time"
+          },
+          "precioBase": {
+            "type": "number",
+            "format": "double"
+          },
+          "duracion": {
+            "type": "string",
+            "format": "date-span"
+          },
+          "condicionParticipacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "incrementoMinimo": {
+            "type": "number",
+            "format": "double"
+          },
+          "precioReserva": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "tipoSubasta": {
+            "type": "string",
+            "nullable": true
+          },
+          "productoId": {
+            "type": "string",
+            "format": "uuid"
           }
         },
         "additionalProperties": false

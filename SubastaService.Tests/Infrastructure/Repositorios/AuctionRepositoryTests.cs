@@ -293,5 +293,90 @@ namespace SubastaService.Tests.Repositorios
             resultado.Should().BeNull();
         }
 
+        [Fact]
+        public async Task ActualizarAsync_DeberiaActualizarYGuardarCambios()
+        {
+            // Arrange
+            var subasta = new Subasta
+            {
+                IdSubasta = Guid.NewGuid(),
+                Nombre = "Original",
+                Descripcion = "Descripción de prueba",
+                PrecioBase = 100,
+                Duracion = TimeSpan.FromHours(2),
+                CondicionParticipacion = "Abierta",
+                FechaInicio = DateTime.UtcNow,
+                Estado = "Pending",
+                IncrementoMinimo = 10,
+                PrecioReserva = 200,
+                TipoSubasta = "Estándar",
+                IdUsuario = Guid.NewGuid(),
+                IdProducto = Guid.NewGuid()
+            };
+
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase(Guid.NewGuid().ToString())
+                .Options;
+
+            await using var dbContext = new ApplicationDbContext(options);
+            dbContext.Subastas.Add(subasta);
+            await dbContext.SaveChangesAsync();
+
+            var mockMongo = new Mock<ISubastaMongoContext>();
+            var mockPublisher = new Mock<IPublishEndpoint>();
+            var repo = new AuctionRepository(dbContext, mockMongo.Object, mockPublisher.Object);
+
+            // Act
+            subasta.Nombre = "Actualizado desde test";
+            await repo.ActualizarAsync(subasta);
+
+            // Assert
+            var actualizado = await dbContext.Subastas.FirstOrDefaultAsync(s => s.IdSubasta == subasta.IdSubasta);
+            actualizado!.Nombre.Should().Be("Actualizado desde test");
+        }
+
+        [Fact]
+        public async Task ObtenerPorIdAsync_SinCancellationToken_DeberiaRetornarSubasta()
+        {
+            // Arrange
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase(Guid.NewGuid().ToString()) // mismo contexto para guardar y leer
+                .Options;
+
+            var subasta = new Subasta
+            {
+                IdSubasta = Guid.NewGuid(),
+                Nombre = "Subasta test",
+                Descripcion = "Descripción",
+                PrecioBase = 100,
+                Duracion = TimeSpan.FromDays(2),
+                CondicionParticipacion = "Participantes verificados",
+                FechaInicio = DateTime.UtcNow,
+                Estado = "Pending",
+                IncrementoMinimo = 5,
+                PrecioReserva = 150,
+                TipoSubasta = "Pública",
+                IdUsuario = Guid.NewGuid(),
+                IdProducto = Guid.NewGuid()
+            };
+
+            // Se guarda y se usa el mismo contexto después
+            await using var dbContext = new ApplicationDbContext(options);
+            dbContext.Subastas.Add(subasta);
+            await dbContext.SaveChangesAsync();
+
+            var mockMongo = new Mock<ISubastaMongoContext>();
+            var mockPublisher = new Mock<IPublishEndpoint>();
+            var repo = new AuctionRepository(dbContext, mockMongo.Object, mockPublisher.Object);
+
+            // Act
+            var resultado = await repo.ObtenerPorIdAsync(subasta.IdSubasta);
+
+            // Assert
+            resultado.Should().NotBeNull();
+            resultado!.IdSubasta.Should().Be(subasta.IdSubasta);
+        }
+
+
     }
 }

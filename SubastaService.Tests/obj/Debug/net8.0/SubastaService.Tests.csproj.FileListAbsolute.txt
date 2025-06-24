@@ -168,3 +168,5 @@ C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaSer
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Tests\obj\Debug\net8.0\SubastaService.Tests.genruntimeconfig.cache
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Tests\obj\Debug\net8.0\ref\SubastaService.Tests.dll
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Tests\bin\Debug\net8.0\SubastaService.Api.xml
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Tests\obj\Debug\net8.0\SubastaService.Tests.sourcelink.json

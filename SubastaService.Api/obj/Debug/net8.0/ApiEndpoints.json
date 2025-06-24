@@ -36,6 +36,16 @@
   },
   {
     "ContainingType": "SubastaService.API.Controllers.SubastasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Subastas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SubastaService.API.Controllers.SubastasController",
     "Method": "GetById",
     "RelativePath": "api/Subastas/{id}",
     "HttpMethod": "GET",
