@@ -13,6 +13,7 @@ using SubastaService.Infrastructure.MongoDB;
 using SubastaService.Infrastructure.Consumers;
 using SubastaService.Domain.Interfaces;
 using SubastaService.Infrastructure.EventPublishers;
+using System.Reflection;
 
 
 
@@ -122,6 +123,15 @@ builder.Services.AddMassTransit(x =>
 
 builder.Services.AddScoped<IPublicadorSubastaEventos, PublicadorSubastaEventos>();
 builder.Services.AddSingleton<ISubastaMongoContext, MongoDbContext>();
+
+
+builder.Services.AddSwaggerGen(c =>
+{
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    c.IncludeXmlComments(xmlPath);
+});
+
 
 
 var app = builder.Build();
