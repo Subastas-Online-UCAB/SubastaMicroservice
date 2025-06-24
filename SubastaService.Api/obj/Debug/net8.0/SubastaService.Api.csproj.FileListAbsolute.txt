@@ -175,3 +175,6 @@ C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaSer
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Api\bin\Debug\net8.0\xunit.assert.dll
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Api\bin\Debug\net8.0\xunit.core.dll
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Api\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Api\bin\Debug\net8.0\SubastaService.Api.xml
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Api\obj\Debug\net8.0\SubastaService.Api.sourcelink.json
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Api\obj\Debug\net8.0\SubastaService.Api.xml
