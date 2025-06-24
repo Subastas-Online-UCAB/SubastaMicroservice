@@ -9,3 +9,4 @@ C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaSer
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Debug\net8.0\refint\SubastaService.Domain.dll
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Debug\net8.0\SubastaService.Domain.pdb
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Debug\net8.0\ref\SubastaService.Domain.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Debug\net8.0\SubastaService.Domain.sourcelink.json

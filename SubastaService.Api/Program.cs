@@ -14,6 +14,7 @@ using SubastaService.Infrastructure.Consumers;
 using SubastaService.Domain.Interfaces;
 using SubastaService.Infrastructure.EventPublishers;
 using System.Reflection;
+using SubastaService.Infraestructura.Repositorios;
 
 
 
@@ -123,6 +124,8 @@ builder.Services.AddMassTransit(x =>
 
 builder.Services.AddScoped<IPublicadorSubastaEventos, PublicadorSubastaEventos>();
 builder.Services.AddSingleton<ISubastaMongoContext, MongoDbContext>();
+builder.Services.AddScoped<IMongoAuctionRepository, MongoAuctionRepository>();
+
 
 
 builder.Services.AddSwaggerGen(c =>

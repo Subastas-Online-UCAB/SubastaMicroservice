@@ -17,3 +17,4 @@ C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaSer
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Infrastructure\obj\Debug\net8.0\SubastaService.Infrastructure.pdb
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Infrastructure\obj\Debug\net8.0\SubastaService.Infrastructure.genruntimeconfig.cache
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Infrastructure\obj\Debug\net8.0\ref\SubastaService.Infrastructure.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Infrastructure\obj\Debug\net8.0\SubastaService.Infrastructure.sourcelink.json

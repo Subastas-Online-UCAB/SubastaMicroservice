@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubastaService.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44a9883c460dcfb35675b6b316d7efddc94e16ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c55580164067e3dd512e34e7377e0db32471399")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubastaService.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubastaService.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

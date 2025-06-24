@@ -11,6 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using SubastaService.Domain.Entidades;
 using SubastaService.Application.Commands;
+using SubastaService.Application.Comun;
 
 namespace SubastaService.Tests.Controllers
 {
@@ -174,7 +175,126 @@ namespace SubastaService.Tests.Controllers
             resultado.Should().BeOfType<NotFoundResult>();
         }
 
-       
+        [Fact]
+        public async Task GetAll_ReturnsOkWithListOfSubastas()
+        {
+            // Arrange
+            var mockMediator = new Mock<IMediator>();
+            var subastasMock = new List<Subasta>
+            {
+                new Subasta
+                {
+                    IdSubasta = Guid.NewGuid(),
+                    Nombre = "Subasta 1",
+                    Descripcion = "Prueba",
+                    PrecioBase = 100,
+                    Duracion = TimeSpan.FromMinutes(60),
+                    CondicionParticipacion = "Libre",
+                    FechaInicio = DateTime.UtcNow,
+                    Estado = "Active",
+                    IncrementoMinimo = 10,
+                    PrecioReserva = 200,
+                    TipoSubasta = "Pública",
+                    IdUsuario = Guid.NewGuid(),
+                    IdProducto = Guid.NewGuid()
+                }
+            };
+
+            mockMediator
+                .Setup(m => m.Send(It.IsAny<GetAllSubastasQuery>(), It.IsAny<CancellationToken>()))
+                .ReturnsAsync(subastasMock);
+
+            var controller = new SubastasController(mockMediator.Object);
+
+            // Act
+            var result = await controller.GetAll();
+
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var returnedSubastas = Assert.IsType<List<Subasta>>(okResult.Value);
+            Assert.Single(returnedSubastas);
+            Assert.Equal("Subasta 1", returnedSubastas[0].Nombre);
+        }
+
+        /*
+                [Fact]
+                public async Task EditarSubasta_ReturnsOkWithResult_WhenCommandIsValid()
+                {
+                    // Arrange
+                    var mockMediator = new Mock<IMediator>();
+
+                    var command = new EditarSubastaCommand
+                    {
+                        IdSubasta = Guid.NewGuid(),
+                        Nombre = "Subasta Editada",
+                        Descripcion = "Subasta actualizada",
+                        PrecioBase = 150,
+                        Duracion = TimeSpan.FromHours(2),
+                        CondicionParticipacion = "Nuevo requisito",
+                        FechaInicio = DateTime.UtcNow.AddDays(1),
+                        Estado = "Pending",
+                        IncrementoMinimo = 15,
+                        PrecioReserva = 300,
+                        TipoSubasta = "Privada",
+                        IdUsuario = Guid.NewGuid(),
+                        IdProducto = Guid.NewGuid()
+                    };
+
+                    var expectedResult = true;
+
+                    mockMediator
+                        .Setup(m => m.Send(It.IsAny<EditarSubastaCommand>(), It.IsAny<CancellationToken>()))
+                        .ReturnsAsync(expectedResult);
+
+                    var controller = new SubastasController(mockMediator.Object);
+
+                    // Act
+                    var result = await controller.EditarSubasta(command);
+
+                    // Assert
+                    var okResult = Assert.IsType<OkObjectResult>(result);
+                    Assert.Equal(expectedResult, okResult.Value);
+                }
+        */
+        [Fact]
+        public async Task EditarSubasta_ReturnsOkWithResult_WhenCommandIsValid()
+        {
+            // Arrange
+            var mockMediator = new Mock<IMediator>();
+
+            var command = new EditarSubastaCommand(
+                SubastaId: Guid.NewGuid(),
+                UsuarioId: Guid.NewGuid(),
+                Titulo: "Subasta Editada",
+                Descripcion: "Subasta actualizada",
+                FechaCierre: DateTime.UtcNow.AddDays(2),
+                PrecioBase: 150,
+                Duracion: TimeSpan.FromHours(2),
+                CondicionParticipacion: "Nuevo requisito",
+                IncrementoMinimo: 15,
+                PrecioReserva: 300,
+                TipoSubasta: "Privada",
+                ProductoId: Guid.NewGuid()
+            );
+
+            var expectedResponse = MessageResponse.CrearExito("Subasta editada exitosamente.");
+
+            mockMediator
+                .Setup(m => m.Send(It.IsAny<EditarSubastaCommand>(), It.IsAny<CancellationToken>()))
+                .ReturnsAsync(expectedResponse);
+
+            var controller = new SubastasController(mockMediator.Object);
+
+            // Act
+            var result = await controller.EditarSubasta(command);
+
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var response = Assert.IsType<MessageResponse>(okResult.Value);
+
+            Assert.True(response.Success);
+            Assert.Equal("Subasta editada exitosamente.", response.Message);
+        }
 
     }
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 using SubastaService.Application.Comun;
 
 namespace SubastaService.Application.Commands
@@ -13,6 +8,13 @@ namespace SubastaService.Application.Commands
         Guid UsuarioId,
         string Titulo,
         string Descripcion,
-        DateTime FechaCierre
+        DateTime FechaCierre,
+        decimal PrecioBase,
+        TimeSpan Duracion,
+        string CondicionParticipacion,
+        decimal IncrementoMinimo,
+        decimal? PrecioReserva,
+        string TipoSubasta,
+        Guid ProductoId
     ) : IRequest<MessageResponse>;
 }

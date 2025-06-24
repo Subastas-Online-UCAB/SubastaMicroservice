@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SubastaService.Application.Commands;
 using SubastaService.Application.Queries;
+using SubastaService.Domain.Entidades;
 
 namespace SubastaService.API.Controllers
 {
@@ -111,5 +112,25 @@ namespace SubastaService.API.Controllers
 
             return Ok(resultado);
         }
+
+
+        /// <summary>
+        /// Obtiene la lista de todas las subastas.
+        /// </summary>
+        /// <remarks>
+        /// Retorna todas las subastas registradas desde la base de datos de lectura (MongoDB).
+        /// No requiere parámetros de entrada.
+        /// </remarks>
+        /// <returns>Lista de objetos <see cref="Subasta"/>.</returns>
+        /// <response code="200">Lista de subastas obtenida exitosamente.</response>
+        /// <response code="500">Error interno del servidor.</response>
+        [HttpGet]
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var resultado = await _mediator.Send(new GetAllSubastasQuery());
+            return Ok(resultado);
+        }
+
     }
 }

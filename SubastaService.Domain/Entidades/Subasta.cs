@@ -23,16 +23,35 @@ namespace SubastaService.Domain.Entidades
         public Guid IdProducto { get; set; }
 
 
-        public void Editar(string titulo, string descripcion, DateTime fechaCierre)
+        public void Editar(
+            string titulo,
+            string descripcion,
+            DateTime fechaCierre,
+            decimal precioBase,
+            TimeSpan duracion,
+            string condicionParticipacion,
+            decimal incrementoMinimo,
+            decimal? precioReserva,
+            string tipoSubasta,
+            Guid productoId
+        )
         {
             Nombre = titulo;
             Descripcion = descripcion;
-            //FechaCierre = fechaCierre;
+            PrecioBase = precioBase;
+            Duracion = duracion;
+            CondicionParticipacion = condicionParticipacion;
+            IncrementoMinimo = incrementoMinimo;
+            PrecioReserva = precioReserva;
+            TipoSubasta = tipoSubasta;
+            IdProducto = productoId;
         }
     }
 
     public enum EstadoSubasta
     {
+        Pending,
+        Activa,
         Borrador,
         EnCurso,
         Finalizada,
