@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using SubastaService.Domain.Entidades;
 using SubastaService.Application.Commands;
 using SubastaService.Application.Comun;
+using SubastaService.Application.Request;
 
 namespace SubastaService.Tests.Controllers
 {
@@ -294,6 +295,46 @@ namespace SubastaService.Tests.Controllers
 
             Assert.True(response.Success);
             Assert.Equal("Subasta editada exitosamente.", response.Message);
+        }
+
+        [Fact]
+        public async Task CambiarEstado_DeberiaRetornarOk_SiCambioEsExitoso()
+        {
+            // Arrange
+            var mockMediator = new Mock<IMediator>();
+
+            var command = new CambiarEstadoSubastaCommand
+            {
+                SubastaId = Guid.NewGuid(),
+                NuevoEstado = "Active",
+                IdUsuario = Guid.NewGuid().ToString()
+            };
+
+            mockMediator.Setup(m => m.Send(It.IsAny<CambiarEstadoSubastaCommand>(), It.IsAny<CancellationToken>()))
+                .ReturnsAsync(true); // Simulamos éxito
+
+            var controller = new SubastasController(mockMediator.Object);
+
+            var request = new CambiarEstadoRequest
+            {
+                NuevoEstado = command.NuevoEstado,
+                IdUsuario = command.IdUsuario
+            };
+
+            // Act
+            var result = await controller.CambiarEstado(command.SubastaId, request);
+
+            // Assert
+            var okResult = result as OkObjectResult;
+            okResult.Should().NotBeNull();
+            okResult!.StatusCode.Should().Be(200);
+            okResult.Value.Should().Be("Estado actualizado correctamente.");
+
+            mockMediator.Verify(m => m.Send(It.Is<CambiarEstadoSubastaCommand>(c =>
+                c.SubastaId == command.SubastaId &&
+                c.NuevoEstado == command.NuevoEstado &&
+                c.IdUsuario == command.IdUsuario
+            ), It.IsAny<CancellationToken>()), Times.Once);
         }
 
     }

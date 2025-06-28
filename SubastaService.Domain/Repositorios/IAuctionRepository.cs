@@ -17,7 +17,5 @@ namespace SubastaService.Domain.Repositorios
 
         Task<Subasta?> ObtenerSubastaCompletaPorIdAsync(Guid id, CancellationToken cancellationToken);
 
-
-
     }
 }

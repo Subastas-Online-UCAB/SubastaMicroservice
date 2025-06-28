@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SubastaService.Application.Commands;
 using SubastaService.Application.Queries;
+using SubastaService.Application.Request;
 using SubastaService.Domain.Entidades;
 
 namespace SubastaService.API.Controllers
@@ -131,6 +132,22 @@ namespace SubastaService.API.Controllers
             var resultado = await _mediator.Send(new GetAllSubastasQuery());
             return Ok(resultado);
         }
+
+        [HttpPut("{id}/estado")]
+        public async Task<IActionResult> CambiarEstado(Guid id, [FromBody] CambiarEstadoRequest request)
+        {
+            var command = new CambiarEstadoSubastaCommand
+            {
+                SubastaId = id,
+                NuevoEstado = request.NuevoEstado,
+                IdUsuario = request.IdUsuario
+            };
+
+            var result = await _mediator.Send(command);
+            return result ? Ok("Estado actualizado correctamente.") : BadRequest("No se pudo actualizar el estado.");
+        }
+
+
 
     }
 }

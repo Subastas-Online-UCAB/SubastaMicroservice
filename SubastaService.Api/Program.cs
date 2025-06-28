@@ -89,12 +89,12 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.Configure<MongoSettings>(builder.Configuration.GetSection("MongoSettings"));
 builder.Services.AddSingleton<MongoDbContext>();
 
-
 // MassTransit
 builder.Services.AddMassTransit(x =>
 {
     // 1. Registrar consumidores
     x.AddConsumer<SubastaCreadaConsumer>();
+    x.AddConsumer<AuctionStateChangedConsumer>(); // 👈 Nuevo consumer agregado
 
     // 2. Registrar la saga
     x.AddSagaStateMachine<SubastaStateMachine, SubastaState>()
@@ -102,7 +102,6 @@ builder.Services.AddMassTransit(x =>
         {
             r.Connection = builder.Configuration["MongoSettings:ConnectionString"];
             r.DatabaseName = builder.Configuration["MongoSettings:DatabaseName"];
-
             r.CollectionName = "subasta_sagas"; // opcional
         });
 
@@ -111,16 +110,23 @@ builder.Services.AddMassTransit(x =>
     {
         cfg.Host("localhost", "/", h => { });
 
-        // Consumer normal
+        // Consumer para evento SubastaCreada
         cfg.ReceiveEndpoint("subasta-creada-event", e =>
         {
             e.ConfigureConsumer<SubastaCreadaConsumer>(context);
         });
 
-        // Endpoint para la saga (auto generado por MassTransit)
+        // ✅ Nuevo endpoint para el cambio de estado
+        cfg.ReceiveEndpoint("auction-state-changed-event", e =>
+        {
+            e.ConfigureConsumer<AuctionStateChangedConsumer>(context);
+        });
+
+        // Endpoint para la saga
         cfg.ConfigureEndpoints(context);
     });
 });
+
 
 builder.Services.AddScoped<IPublicadorSubastaEventos, PublicadorSubastaEventos>();
 builder.Services.AddSingleton<ISubastaMongoContext, MongoDbContext>();
