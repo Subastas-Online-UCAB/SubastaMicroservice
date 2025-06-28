@@ -344,6 +344,7 @@ namespace SubastaService.Tests.Repositorios
                 .Options;
 
             var subasta = new Subasta
+
             {
                 IdSubasta = Guid.NewGuid(),
                 Nombre = "Subasta test",

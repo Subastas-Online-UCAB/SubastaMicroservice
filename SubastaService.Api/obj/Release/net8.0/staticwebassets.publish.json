@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Xs0gFa43iDxxB0MnrPQLGouICbuYOlEguinjSFb54pw=",
+  "Source": "SubastaService.Api",
+  "BasePath": "_content/SubastaService.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

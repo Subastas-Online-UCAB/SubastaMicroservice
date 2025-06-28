@@ -1,0 +1,12 @@
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\bin\Release\net8.0\SubastaService.Domain.deps.json
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\bin\Release\net8.0\SubastaService.Domain.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\bin\Release\net8.0\SubastaService.Domain.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\SubastaService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\SubastaService.Domain.AssemblyInfoInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\SubastaService.Domain.AssemblyInfo.cs
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\SubastaService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\SubastaService.Domain.sourcelink.json
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\SubastaService.Domain.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\refint\SubastaService.Domain.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\SubastaService.Domain.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\SubastaService.Solution\SubastaService.Domain\obj\Release\net8.0\ref\SubastaService.Domain.dll

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SubastaService.Api</name>
+    </assembly>
+    <members>
+        <member name="T:SubastaService.API.Controllers.SubastasController">
+            <summary>
+            Controlador para gestionar operaciones relacionadas con subastas.
+            </summary>
+        </member>
+        <member name="M:SubastaService.API.Controllers.SubastasController.CrearSubasta(SubastaService.Application.Commands.CreateAuctionCommand)">
+            <summary>
+            Crea una nueva subasta.
+            </summary>
+            <param name="command">Datos de la subasta a crear.</param>
+            <returns>ID de la subasta creada.</returns>
+            <response code="201">Subasta creada exitosamente.</response>
+            <response code="400">Datos inválidos o incompletos.</response>
+        </member>
+        <member name="M:SubastaService.API.Controllers.SubastasController.GetById(System.Guid)">
+            <summary>
+            Obtiene una subasta por su ID (placeholder temporal).
+            </summary>
+            <param name="id">ID de la subasta.</param>
+            <returns>Objeto con el ID y mensaje de confirmación.</returns>
+            <response code="200">Subasta encontrada (placeholder).</response>
+        </member>
+        <member name="M:SubastaService.API.Controllers.SubastasController.EditarSubasta(SubastaService.Application.Commands.EditarSubastaCommand)">
+            <summary>
+            Edita los datos de una subasta existente.
+            </summary>
+            <param name="command">Datos actualizados de la subasta.</param>
+            <returns>Resultado de la operación.</returns>
+            <response code="200">Subasta editada exitosamente.</response>
+        </member>
+        <member name="M:SubastaService.API.Controllers.SubastasController.Delete(System.Guid,System.Guid)">
+            <summary>
+            Elimina una subasta por su ID.
+            </summary>
+            <param name="id">ID de la subasta a eliminar.</param>
+            <param name="usuarioId">ID del usuario que solicita la eliminación.</param>
+            <returns>NoContent si fue eliminada, NotFound si no existe.</returns>
+            <response code="204">Subasta eliminada exitosamente.</response>
+            <response code="404">Subasta no encontrada.</response>
+        </member>
+        <member name="M:SubastaService.API.Controllers.SubastasController.ObtenerPorId(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Consulta una subasta por su ID.
+            </summary>
+            <param name="id">ID de la subasta a consultar.</param>
+            <param name="cancellationToken">Token de cancelación.</param>
+            <returns>Detalles de la subasta si existe.</returns>
+            <response code="200">Subasta encontrada.</response>
+            <response code="404">Subasta no encontrada.</response>
+        </member>
+        <member name="M:SubastaService.API.Controllers.SubastasController.GetAll">
+            <summary>
+            Obtiene la lista de todas las subastas.
+            </summary>
+            <remarks>
+            Retorna todas las subastas registradas desde la base de datos de lectura (MongoDB).
+            No requiere parámetros de entrada.
+            </remarks>
+            <returns>Lista de objetos <see cref="T:SubastaService.Domain.Entidades.Subasta"/>.</returns>
+            <response code="200">Lista de subastas obtenida exitosamente.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubastaService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c55580164067e3dd512e34e7377e0db32471399")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbd2e63942d5b212386c0d801f7cd8eca15cf6dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubastaService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubastaService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

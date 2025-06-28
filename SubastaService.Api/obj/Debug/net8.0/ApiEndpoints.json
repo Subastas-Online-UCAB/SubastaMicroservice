@@ -68,6 +68,27 @@
   },
   {
     "ContainingType": "SubastaService.API.Controllers.SubastasController",
+    "Method": "CambiarEstado",
+    "RelativePath": "api/Subastas/{id}/estado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SubastaService.Application.Request.CambiarEstadoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SubastaService.API.Controllers.SubastasController",
     "Method": "ObtenerPorId",
     "RelativePath": "api/Subastas/buscar/{id}",
     "HttpMethod": "GET",
