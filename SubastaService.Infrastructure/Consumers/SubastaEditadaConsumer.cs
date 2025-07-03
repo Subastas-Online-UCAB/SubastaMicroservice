@@ -21,6 +21,20 @@ namespace SubastaService.Infrastructure.Consumers
 
             var filter = Builders<SubastaDocument>.Filter.Eq(s => s.Id, evento.SubastaId);
 
+            var documentoActual = await _mongoContext.Subastas
+                .Find(filter)
+                .FirstOrDefaultAsync();
+
+            if (documentoActual == null)
+            {
+                // Si no existe aún, puedes asignar estado inicial 'Pending'
+                documentoActual = new SubastaDocument
+                {
+                    Id = evento.SubastaId,
+                    Estado = "Pending" // o cualquier estado por defecto
+                };
+            }
+
             var updatedDocument = new SubastaDocument
             {
                 Id = evento.SubastaId,
@@ -31,18 +45,20 @@ namespace SubastaService.Infrastructure.Consumers
                 CondicionParticipacion = evento.CondicionParticipacion,
                 FechaInicio = evento.FechaInicio,
                 FechaFin = evento.FechaCierre,
-                Estado = "Actualizada", // o conserva el valor actual si es necesario
                 IncrementoMinimo = evento.IncrementoMinimo,
                 PrecioReserva = evento.PrecioReserva,
                 TipoSubasta = evento.TipoSubasta,
                 IdProducto = evento.ProductoId,
-                IdUsuario = evento.UsuarioId
+                IdUsuario = evento.UsuarioId,
+
+                // 👇 Conservamos el estado actual
+                Estado = documentoActual.Estado
             };
 
             await _mongoContext.Subastas.ReplaceOneAsync(
                 filter,
                 updatedDocument,
-                new ReplaceOptions { IsUpsert = true } // por si aún no existe en Mongo
+                new ReplaceOptions { IsUpsert = true }
             );
         }
     }
