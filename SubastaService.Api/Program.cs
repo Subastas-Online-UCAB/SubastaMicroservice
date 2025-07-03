@@ -95,6 +95,8 @@ builder.Services.AddMassTransit(x =>
     // 1. Registrar consumidores
     x.AddConsumer<SubastaCreadaConsumer>();
     x.AddConsumer<AuctionStateChangedConsumer>(); // 👈 Nuevo consumer agregado
+    x.AddConsumer<SubastaEditadaConsumer>();
+
 
     // 2. Registrar la saga
     x.AddSagaStateMachine<SubastaStateMachine, SubastaState>()
@@ -120,6 +122,11 @@ builder.Services.AddMassTransit(x =>
         cfg.ReceiveEndpoint("auction-state-changed-event", e =>
         {
             e.ConfigureConsumer<AuctionStateChangedConsumer>(context);
+        });
+
+        cfg.ReceiveEndpoint("subasta-editada-event", e =>
+        {
+            e.ConfigureConsumer<SubastaEditadaConsumer>(context);
         });
 
         // Endpoint para la saga
